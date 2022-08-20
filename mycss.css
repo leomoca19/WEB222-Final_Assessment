@@ -1,0 +1,79 @@
+font-size: 1.8em;
+}
+#user_name, #user_email, #user_address, #user_city, #my-contact-submittingbtn {
+    display: block;
+    margin: 2% 0% 2% 0%;
+}
+/**************************************************************************************/
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+th, td {
+    font-size: 1.3em;
+}
+
+table{
+    margin: 10% auto;
+}
+
+sub{
+    font-size: .55em;
+}
+
+span{
+    margin: 0% 0% 0% 15%;
+}
+
+@media screen and (max-width: 600px){
+    /*Introduction*/
+    #my-introduction{
+        height: 28em;
+    }
+    #my-introduction-image{
+        width: 80%;
+        margin: 10% auto 10% auto;
+        display: block;
+    }
+    #my-introduction-resume{
+        color: white;
+        background: black;
+        border-radius: 25px;
+        margin: 5% 10% 0% 15%;
+    }
+    /*Honesty*/
+    #honesty{
+        max-width: 90%;
+    }
+    #honesty-title{
+        font-size: 1.6em;
+        max-width: 70%;
+        margin: 20% auto 10% auto;
+    }
+    #honesty-paragraph{
+        font-size: 1.4em;
+        max-width: 100%;
+    }
+    /*Education*/
+    #my-education{
+        padding: 0%;
+    }
+    #my-education-title{
+        max-width: 100%;
+        margin: 0% 0% 0% 0%;
+        padding: .6em 23%;
+        font-size: 2em;
+        display: auto;
+        vertical-align: auto;
+    }
+    #my-education-information{
+        display: auto;
+        vertical-align: auto;
+        max-width: 100%;
+        margin: 10% 0% 0% 0%;
+        padding-bottom: 10px;
+        font-size: 1.4em;
+    }
+}
